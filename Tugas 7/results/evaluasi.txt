@@ -1,0 +1,19 @@
+Enhancement              CER rata-rata   Exact match
+otsu                            0.2889         4/9
+flatfield+otsu                  0.3037         1/9
+denoise+sharpen+otsu            0.3481         2/9
+tanpa_enhancement               0.4963         2/9
+adaptive_gaussian               0.5037         1/9
+clahe+otsu                      0.8963         0/9
+
+Deteksi tanda tangan (positif = citra asli, negatif = TTD dihapus)
+  ijazah_001_highquality_enhanced.png        asli=PRESENT  dihapus=ABSENT
+  ijazah_002_lowcontrast.png                 asli=PRESENT  dihapus=ABSENT
+  ijazah_003_blurred.png                     asli=PRESENT  dihapus=ABSENT
+  ijazah_004_highnoise.png                   asli=PRESENT  dihapus=ABSENT
+  ijazah_005_lowres_upsampled.png            asli=PRESENT  dihapus=ABSENT
+  ijazah_006_faded_underexposed.png          asli=PRESENT  dihapus=ABSENT
+  ijazah_007_colorshift_warmtint.png         asli=PRESENT  dihapus=ABSENT
+  ijazah_008_jpeg_artifacts.png              asli=PRESENT  dihapus=ABSENT
+  ijazah_009_combined_degradation.png        asli=PRESENT  dihapus=ABSENT
+Akurasi TTD: positif 9/9, negatif 9/9

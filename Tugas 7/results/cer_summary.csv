@@ -1,0 +1,7 @@
+enhancer,mean_cer,exact,n
+otsu,0.2888888888888889,4,9
+flatfield+otsu,0.3037037037037037,1,9
+denoise+sharpen+otsu,0.34814814814814815,2,9
+tanpa_enhancement,0.4962962962962963,2,9
+adaptive_gaussian,0.5037037037037037,1,9
+clahe+otsu,0.8962962962962963,0,9
